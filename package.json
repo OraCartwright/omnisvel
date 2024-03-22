@@ -1,0 +1,26 @@
+{
+  "name": "omnisvel",
+  "version": "1.0.0",
+  "description": "Monorepo containing numerical codecs and arbitraries",
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OraCartwright/omnisvel.git"
+  },
+  "author": "IssacMayert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OraCartwright/omnisvel.git/issues"
+  },
+  "homepage": "https://github.com/OraCartwright/omnisvel.git",
+  "pre-commit": "lint-staged-packages",
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "multi-semantic-release": "^2.11.0",
+    "patch-semantic-release-npm-for-msr": "^1.0.0",
+    "semantic-release": "^18.0.1",
+    "typescript": "^4.3.5"
+  }
+}
